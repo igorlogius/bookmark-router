@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+  <title>Bookmark Router: Options</title>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <head> </head>
+  <body style="background-color: lightgray">
+    <form id="mainForm" accept-charset="utf-8">
+      <span> | Local:</span>
+      <input type="submit" value="Save" />
+      <input id="impbtn_wrapper" type="button" value="Import" />
+      <input id="impbtn" type="file" value="" style="display: none" />
+      <input id="expbtn" type="button" value="Export" />
+      <span> | FF Sync:</span>
+      <input id="syncgetbtn" type="button" value="Restore" />
+      <input id="syncsetbtn" type="button" value="Backup" />
+      <span>
+        | Notifications:
+        <input id="notifications" type="checkbox" value="" checked
+      /></span>
+      <table id="mainTable" border="1" style="width: 100%">
+        <thead>
+          <tr>
+            <th style="width: 0">Enabled</th>
+            <th style="45%;">Bookmark Folder</th>
+            <th style="width: 45%">URL RegEx</th>
+            <th style="width: 0"></th>
+          </tr>
+        </thead>
+        <tbody id="mainTableBody" />
+      </table>
+    </form>
+    <script src="options.js"></script>
+  </body>
+</head>
