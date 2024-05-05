@@ -1,5 +1,11 @@
 Place bookmarks into specific folders based on url regex matches
 
+### [Click here to report a bug, make a suggestion or ask a question](https://github.com/igorlogius/igorlogius/issues/new/choose)
+
+<b>Short Demo Video:</b>
+
+tbd.
+
 <b>Usage: (Basic / Single) </b>
 <ol>
   <li>open the options page</li>
